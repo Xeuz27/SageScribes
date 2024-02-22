@@ -1,0 +1,19 @@
+---
+const { title, ogImage, articleDate } = Astro.props;
+import BaseHead from '@components/BaseHead.astro';
+import Header from '@components/Header.astro';
+import Background from '@components/Background.astro';
+---
+
+<html lang="en" class="scroll-smooth">
+    <head>
+        <BaseHead title={title} />
+    </head>
+    <body class="bg-forth relative h-svh">
+        <Background />
+        <header>
+            <Header />
+        </header>
+        <slot />
+    </body>
+</html>
