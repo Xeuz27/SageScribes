@@ -10,7 +10,7 @@ interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
     author: 'yidev27', // Site author
-    title: 'Gptscribe', // Site title.
+    title: 'SageScribe', // Site title.
     description: 'Count on our handy pros to nail those home fixes with expertise and a guarantee – we get it right the first time, every time!', // Description to display in the meta tags
     lang: 'en-GB',
     ogLocale: 'en_GB',
