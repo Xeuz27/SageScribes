@@ -5,15 +5,13 @@ interface SiteConfig {
     lang: string;
     ogLocale: string;
     shareMessage: string;
-    paginationSize: number;
 }
 
 export const siteConfig: SiteConfig = {
     author: 'yidev27', // Site author
     title: 'SageScribe', // Site title.
-    description: 'Count on our handy pros to nail those home fixes with expertise and a guarantee – we get it right the first time, every time!', // Description to display in the meta tags
+    description: 'Experience effortless article creation with SageScriber! Transform your ideas into polished pieces effortlessly, making writing simple and effective for everyone.', // Description to display in the meta tags
     lang: 'en-GB',
     ogLocale: 'en_GB',
-    shareMessage: 'Share this post', // Message to share a post on social media
-    paginationSize: 6, // Number of posts per page
+    shareMessage: 'effortless article creation with SageScriber!', // Message to share a post on social media
 };
